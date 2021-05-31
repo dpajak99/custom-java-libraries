@@ -1,0 +1,208 @@
+@page {
+    padding: 0.5cm 1.5cm;
+    margin: 0;
+    size: 210mm 210mm;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.schedule-container {
+    width: 210mm;
+    height: 210mm;
+    border: solid 1px #aaa;
+}
+
+.table-contact {
+    width: 100%;
+}
+
+body {
+    color: #000;
+}
+
+b {
+    font-weight: bold;
+}
+
+.schedule-header {
+    width: 100%;
+    margin-bottom: 0.2cm;
+}
+
+.schedule-footer {
+    width: 100%;
+    padding: 8px 0 8px 8px;
+    border-top: solid 2px #000;
+}
+
+.schedule-footer__footer {
+    margin-top: 0.5cm;
+    width: 100%;
+}
+
+.bus-line-name {
+    font-style: normal;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.bus-stop-name {
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.logo {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.contact-box div {
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.contact-box__header {
+    color: #A81C1C;
+}
+
+.table-schedule {
+    width: 100%;
+    display: table;
+    border-collapse: collapse;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    border-right: solid 4px #000;
+    border-left: solid 4px #000;
+    padding: 0;
+}
+
+.destination-box {
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.destination-box span {
+    font-weight: bold;
+}
+.destination-box, .destination-box span {
+    text-align: center;
+}
+
+.day-name {
+    padding: 3px 0;
+    border-top: solid 2px #000;
+    border-bottom: solid 2px #000;
+    text-align: center;
+}
+
+.day-name__name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.day-name__subtext {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.day-name-RO {
+    background-color: #FDF7C9;
+}
+
+.day-name-WS {
+    background-color: #DEEAF7;
+}
+
+.day-name-SW {
+    background-color: #DEF4D8;
+}
+
+.departures-box {
+    text-align: center;
+    padding: 0 10px;
+    min-height: 70px;
+}
+
+.departures-box__RO {
+    min-height: 100px
+}
+
+.departure-box, .symbol-box {
+    font-weight: bold;
+}
+
+.departure-box {
+    font-size: 15px;
+    padding: 8px;
+}
+
+.symbol-box {
+    font-size: 12px;
+}
+
+.schedule-valid-date {
+    font-weight: bold;
+}
+
+.schedule-delay-info {
+    font-size: 11px;
+    font-style: italic;
+    line-height: 12px;
+    font-weight: bold;
+    color: #A81C1C;
+}
+
+.destinations {
+
+}
+
+.destinations__single-destination {
+    font-size: 12px;
+}
+
+.destinations-header {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tarbus-advertisement {
+    font-size: 12px;
+    text-align: right;
+}
+
+.tarbus-advertisement__text {
+    margin-right: 8px;
+}
+
+.tarbus-qr-code {
+    height: 2cm;
+    width: 2cm;
+}
+
+.empty-departures {
+    font-size: 14px;
+}
+
+.bottom-bar {
+    width: 100%;
+    padding-top: 5px;
+}
+
+.bottom-bar__valid-date {
+    font-size: 12px;
+}
+
+.bottom-bar__webpage {
+    text-align: right;
+    font-size: 12px;
+}

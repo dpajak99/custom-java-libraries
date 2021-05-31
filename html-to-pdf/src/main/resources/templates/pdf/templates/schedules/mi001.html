@@ -1,0 +1,128 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Title</title>
+
+    <style type="text/css">
+        * {
+            font-weight: normal;
+            font-family: "Open Sans";
+            /*font-family: "Calibri";*/
+        }
+    </style>
+    <style th:text="${style}"></style>
+    <link rel="stylesheet" type="text/css" href="../schedules/css/mi001.css"/>
+</head>
+<body>
+<div class="">
+    <table class="schedule-header">
+        <tr>
+            <td style="width: 3cm">
+                <span class="bus-line-name">T10</span>
+            </td>
+            <td class="logo" style="width: 1cm">
+                <img src="http://localhost:8001/assets/img/michalus-logo.png" alt="logo"/>
+            </td>
+            <td>
+                <table class="table-contact">
+                    <tr>
+                        <td class="contact-box">
+                            <div class="contact-box__header">
+                                GMINNA KOMUNIKACJA PUBLICZNA<br/>
+                                "Michalus" Firma Przewozowa Michał Bodzioch
+                            </div>
+                            <div class="contact-box__footer">
+                                Dziekanowice 49, 32-140 Dobczyce<br/>
+                                www.gkp.tarnow.pl tel. 516 865 266<br/><br/>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="bus-stop-name">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <table class="table-schedule">
+        <tr>
+            <td class="destination-box">
+                Kierunek: <span class="destination-name"></span>
+            </td>
+        </tr>
+        <tr>
+            <td class="day-name day-name-RO">
+                <div class="day-name__name">Dni robocze</div>
+                <div class="day-name__subtext">z wyjątkiem 2 maja i 24 grudnia, jeżeli wypadają w dni robocze</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="departures-box departures-box__RO">
+                <div class="departures-RO">
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="day-name day-name-WS">
+                <div class="day-name__name">Soboty</div>
+                <div class="day-name__subtext">a także 2 maja i 24 grudnia, jeżeli wypadają w dni robocze</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="departures-box">
+                <div class="departures-WS">
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="day-name day-name-SW">
+                <div class="day-name__name">Niedziele i święta</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="departures-box">
+                <div class="departures-SW">
+
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="schedule-footer">
+                <div class="schedule-delay-info">
+                    Czasy odjazdów mogą ulec zmianie w zależności od warunków drogowych. Jako odjazd punktualny traktowany
+                    jest odjazd wykonywany w przedziale od -1 do +3 minuty w odniesieniu do planowanego rozkładu jazdy
+                </div>
+                <table class="schedule-footer__footer">
+                    <tr>
+                        <td>
+                            <div class="destinations-header">Oznaczenia:</div>
+                            <div class="destinations">
+                            </div>
+                        </td>
+                        <td class="tarbus-advertisement" valign="bottom">
+                            <div><img class="tarbus-qr-code" src="" alt="tarbusqr"/></div>
+                            <span class="tarbus-advertisement__text">Pobierz aplikację <b>tarBUS</b></span>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+    <table class="bottom-bar">
+        <tr>
+            <td class="bottom-bar__valid-date">
+                Rozkład jazdy obowiązuje od <span class="schedule-valid-date"></span>
+            </td>
+            <td class="bottom-bar__webpage">
+                www.<b>gkp</b>.tarnow.pl
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
